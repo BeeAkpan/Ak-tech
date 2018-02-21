@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="1. Which is the leading Technological hub in AkwaIbom as of 2018?"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text1">
+
+            <RadioButton
+                android:id="@+id/answer1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Start Innovation hub"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Roothub"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Hubitz hub"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text=" 2. Which of this is not a technological incubator in Akwa Ibom?"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_below="@id/radioGroup1"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2">
+
+            <RadioButton
+                android:id="@+id/answer1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Kodehauz"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Roothub"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Hubitz hub"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text=" 3. Who is the present commisioner for Science amd Technology?"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_below="@id/radioGroup2"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3">
+
+            <RadioButton
+                android:id="@+id/answer1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text=" Dr. Nse Udo Essien"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Mark Essien"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Dr. Elizabeth Obot"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text=" 4. Who is the CEO of Hotels.ng?"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/radioGroup3"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGroup4"
+            android:layout_below="@+id/text4">
+
+            <RadioButton
+                android:id="@+id/answer1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Aniedi Udobong"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Hanson Johnson"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Mark Essien"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="5.Identify the image image below"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/radioGroup4"/>
+        <ImageView
+            android:id="@+id/ibom"
+            android:layout_width="280dp"
+            android:layout_height="90dp"
+            android:src="@drawable/Ibom"
+            android:layout_below="@+id/text5"/>
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGroup5"
+            android:layout_below="@+id/ibom">
+
+            <RadioButton
+                android:id="@+id/answer1_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Ibom E-library"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer2_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Ibom Tropicana"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer3_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Ibom Science Park"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text=" 6. Which month and year did Save Ibom Science Park Campaign begin?"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/radioGroup5"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text6">
+
+            <RadioButton
+                android:id="@+id/answer1_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="December, 2017"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer2_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="August, 2016"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer3_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="January, 2018"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="7. Where was StarthubWeekend Uyo, held?"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/radioGroup6"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text7">
+
+            <RadioButton
+                android:id="@+id/answer1_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Roothub"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer2_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Wennovation hub"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer3_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Hubitz hub"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="8.What is the full meaning of AKITECH?"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/radioGroup7"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text8">
+
+            <RadioButton
+                android:id="@+id/answer1_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Akwa Ibom State Science and Technology"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer2_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Akwa Ibom Technology"
+                android:textSize="16sp" />
+            <RadioButton
+                android:id="@+id/answer3_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="Akwa Ibom State Technology"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="9.Which year did the AKSG sponsor youths in Oracle Database Administration Training?"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/radioGroup8"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGroup9"
+            android:layout_below="@+id/text9">
+
+            <RadioButton
+                android:id="@+id/answer1_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="2016"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer2_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="2015"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer3_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="2014"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="10.How many youths were sponsored?"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/radioGroup9"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text10">
+
+            <RadioButton
+                android:id="@+id/answer1_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="5,000 youths"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer2_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="2,000 youths"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer3_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="1,000 youths"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_below="@id/radioGroup10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f97a25"
+            android:onClick="reset"
+            android:text="RESET"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_below="@id/radioGroup10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f97a25"
+            android:onClick="submit"
+            android:text="SUBMIT"
+            android:paddingBottom="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+</ScrollView>
+
+
